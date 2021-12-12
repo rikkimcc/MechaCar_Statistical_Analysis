@@ -24,3 +24,10 @@
 
 #### T-Test (All Lot 2 & Lot 3)
 <img width="553" alt="Screen Shot 2021-12-12 at 12 09 44 PM" src="https://user-images.githubusercontent.com/89141436/145722212-dd51b663-757a-4b95-9d82-a843db92d1f0.png">
+
+## Study Design: MechaCar vs Competition
+
+- What metric or metrics are you going to test?
+- What is the null hypothesis or alternative hypothesis?
+- What statistical test would you use to test the hypothesis? And why?
+- What data is needed to run the statistical test?

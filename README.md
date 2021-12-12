@@ -10,17 +10,19 @@
 
 
 ## Summary Statistics on Suspension Coils
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 #### Total Summary
-- Since the overall variance is under 100 PSI, this meets the design specification.
+Since the overall variance is under 100 PSI, this meets the design specification.
 <img width="605" alt="Screen Shot 2021-12-12 at 11 55 55 AM" src="https://user-images.githubusercontent.com/89141436/145721668-094a3e8e-d494-4387-9835-05aed31f16f3.png">
 
 #### Lot Summary
-- Lot 1 and 2 meet the design specification since their variance is within the acceptable threshold. However, Lot 3's variance is 170 which exceeds the limit.  
+Lot 1 and 2 meet the design specification since their variance is within the acceptable threshold. However, Lot 3's variance is 170 which exceeds the limit.  
 <img width="605" alt="Screen Shot 2021-12-12 at 11 55 36 AM" src="https://user-images.githubusercontent.com/89141436/145721669-bd0099e9-ba99-4d25-94fc-30fb6f7cb7d9.png">
 
 ## T-Tests on Suspension Coils
+
+All lots and specifically 1 & 2 are not statistically different from the population mean and we cannot reject the null hypothesis given the p-value. However, Lot 3 is statictically different from the population mean and the p-value is low enough for us to reject the null hypothesis.
 
 #### T-Test (All Lots & Lot 1)
 <img width="553" alt="Screen Shot 2021-12-12 at 12 09 20 PM" src="https://user-images.githubusercontent.com/89141436/145722196-dece8580-22d6-492f-8595-5a4683c3d354.png">

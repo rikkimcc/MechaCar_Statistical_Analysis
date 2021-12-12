@@ -2,9 +2,9 @@
 
 ## Linear Regression to Predict MPG
 
-- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-- Is the slope of the linear model considered to be zero? Why or why not?
-- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? -- The vehicle length and ground clearance provided a  non-random amount of variance.
+- Is the slope of the linear model considered to be zero? Why or why not? -- Slope is not considered zero since our P-Value is 5.35e-11
+- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not? -- Yes, this model does predict mpg effectively since our r-squared value is approximately 71%
 
 <img width="645" alt="Screen Shot 2021-12-12 at 12 23 04 PM" src="https://user-images.githubusercontent.com/89141436/145722653-1599b490-a73e-420a-a379-9aa63bd5647f.png">
 
@@ -13,9 +13,11 @@
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 #### Total Summary
+- Since the overall variance is under 100 PSI, this meets the design specification.
 <img width="605" alt="Screen Shot 2021-12-12 at 11 55 55 AM" src="https://user-images.githubusercontent.com/89141436/145721668-094a3e8e-d494-4387-9835-05aed31f16f3.png">
 
 #### Lot Summary
+- Lot 1 and 2 meet the design specification since their variance is within the acceptable threshold. However, Lot 3's variance is 170 which exceeds the limit.  
 <img width="605" alt="Screen Shot 2021-12-12 at 11 55 36 AM" src="https://user-images.githubusercontent.com/89141436/145721669-bd0099e9-ba99-4d25-94fc-30fb6f7cb7d9.png">
 
 ## T-Tests on Suspension Coils

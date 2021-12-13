@@ -32,7 +32,6 @@ All lots and specifically 1 & 2 are not statistically different from the populat
 
 ## Study Design: MechaCar vs Competition
 
-- What metric or metrics are you going to test?
-- What is the null hypothesis or alternative hypothesis?
-- What statistical test would you use to test the hypothesis? And why?
-- What data is needed to run the statistical test?
+- What metric or metrics are you going to test? -- fuel efficiency
+- What is the null hypothesis or alternative hypothesis? -- the null hypothesis is there is no statistical difference between the competition's mpg dataset and MechaCar's mpg dataset.
+- What statistical test would you use to test the hypothesis? And why? -- I would use the t-test to test the hypothesis since it has already been used to for it's current analysis.
